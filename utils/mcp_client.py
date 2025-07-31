@@ -567,7 +567,7 @@ class McpClients:
                                 "description": argument_description
                             }
                             if "required" in prompt_argument:
-                                required.append(prompt_argument["required"])
+                                required.append(argument_name)
                         tool = {
                             "name": name,
                             "description": description,
